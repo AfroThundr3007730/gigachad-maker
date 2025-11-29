@@ -29,7 +29,7 @@ export const webpackOverride: WebpackOverrideFn = (currentConfiguration) => {
 								postcssOptions: {
 									plugins: [
 										'postcss-preset-env',
-										'tailwindcss',
+										'@tailwindcss/postcss',
 										'autoprefixer',
 									],
 								},

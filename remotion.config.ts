@@ -6,7 +6,7 @@ Config.setOverwriteOutput(true);
 Config.setCodec('gif');
 Config.setEveryNthFrame(2);
 Config.setNumberOfGifLoops(2);
-Config.setScale(0.5);
+Config.setScale(1.0);
 Config.setOutputLocation('out/gigachad.gif');
 
 // Maybe try with multiple compositions
