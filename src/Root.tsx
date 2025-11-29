@@ -10,8 +10,8 @@ export const RemotionRoot: React.FC = () => {
 				component={GigachadMakerComp}
 				durationInFrames={360}
 				fps={30}
-				width={480}
-				height={640}
+				width={128}
+				height={128}
 			/>
 		</>
 	);

@@ -3,10 +3,10 @@ import {Img, Sequence, staticFile, useCurrentFrame} from 'remotion';
 
 // Get 4 images from public file (public is ignored in .gitignore)
 const images = [
-	staticFile('/gigacat1.jpg'),
-	staticFile('/gigacat2.jpg'),
-	staticFile('/gigacat3.jpg'),
-	staticFile('/gigacat4.jpg'),
+	staticFile('1009483660472365156.png'),
+	staticFile('1009483660472365156-.png'),
+	staticFile('1009483660472365156-.png'),
+	staticFile('1009483660472365156.png'),
 ];
 
 const MOVING_SPEED = 1;
@@ -78,11 +78,11 @@ export const GigachadMakerComp = () => {
 							{/* <h1 className="absolute z-10 bg-white p-2 text-2xl font-semibold drop-shadow-md">
 								{width + ',' + height}
 							</h1> */}
-							<div className="z-20 flex h-[640px] w-[480px] items-center justify-center outline outline-8 outline-red-500">
+							<div className="z-20 flex h-[128px] w-[128px] items-center justify-center outline outline-8 outline-red-500">
 								{/* <div className="z-20 ml-16 mt-16 flex h-[480px] w-[360px] items-center justify-center outline outline-8 outline-red-500"> */}
 								<Img
 									onLoad={handleImageLoad}
-									className="h-[150%] w-[150%] overflow-visible object-cover grayscale"
+									className="h-[100%] w-[100%] overflow-visible object-cover grayscale"
 									style={{
 										transform: `translate(${handleImageMovement(i)})`,
 										// transform: 'translate(90px,0px)',
